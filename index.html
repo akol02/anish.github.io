@@ -35,7 +35,6 @@
             overflow-x: hidden;
         }
 
-        /* Floating particles background */
         .particles {
             position: fixed;
             top: 0;
@@ -79,7 +78,6 @@
             padding: 0 2rem;
         }
 
-        /* Enhanced Header */
         header {
             position: fixed;
             top: 0;
@@ -156,7 +154,6 @@
             width: 80%;
         }
 
-        /* Epic Hero Section */
         .hero {
             height: 100vh;
             display: flex;
@@ -221,7 +218,6 @@
             animation: fadeInUp 1s ease-out 0.6s both;
         }
 
-        /* Enhanced Buttons */
         .btn {
             display: inline-block;
             padding: 1rem 2.5rem;
@@ -276,7 +272,6 @@
             transform: translateY(-3px);
         }
 
-        /* Glassmorphism Sections */
         section {
             padding: 6rem 0;
             position: relative;
@@ -303,7 +298,6 @@
             transform: translateY(0);
         }
 
-        /* About Section */
         .about-content {
             max-width: 800px;
             margin: 0 auto;
@@ -326,7 +320,6 @@
             transform: translateY(0);
         }
 
-        /* Enhanced Cards */
         .card-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -382,7 +375,6 @@
             line-height: 1.8;
         }
 
-        /* Skills Section Enhancement */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -428,7 +420,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Projects Section */
         .project-card {
             background: var(--surface-glass);
             backdrop-filter: blur(20px);
@@ -473,7 +464,6 @@
             font-size: 0.9rem;
         }
 
-        /* Contact Section */
         .contact-content {
             text-align: center;
             background: var(--surface-glass);
@@ -518,7 +508,6 @@
             color: var(--text-primary);
         }
 
-        /* Footer */
         footer {
             background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(20px);
@@ -555,7 +544,6 @@
             box-shadow: var(--shadow-neon);
         }
 
-        /* Animations */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -576,7 +564,6 @@
             }
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 3rem;
@@ -614,7 +601,6 @@
             }
         }
 
-        /* Scroll animations */
         .fade-in-up {
             opacity: 0;
             transform: translateY(30px);
@@ -628,7 +614,6 @@
     </style>
 </head>
 <body>
-    <!-- Floating Particles -->
     <div class="particles" id="particles"></div>
 
     <header id="header">
@@ -647,9 +632,9 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>Anish Kolhe</h1>
-                <p class="subtitle">< Electrical Engineer /></p>
-                <p class="description">IoT Enthusiast • Problem Solver • Code Craftsman<br>
-                Transforming ideas into innovative technological solutions</p>
+                <p class="subtitle">< 2024 Graduate /></p>
+                <p class="description">Recent Graduate • Software Developer • Innovator<br>
+                Building solutions like Vastral and AI-driven monitoring tools</p>
                 <a href="#contact" class="btn btn-primary">Get in Touch</a>
                 <a href="https://www.linkedin.com/in/anishkolhe18/" class="btn btn-secondary">LinkedIn</a>
             </div>
@@ -658,9 +643,9 @@
         <section id="about" class="container">
             <h2 class="section-title fade-in-up">About Me</h2>
             <div class="about-content fade-in-up">
-                <p>As a motivated Electrical Engineering graduate from Dr. D.Y. Patil Institute of Technology, Pune, I am passionate about pushing the boundaries of technology. My expertise spans IoT development, systems programming, and data analysis, with proficiency in C, C++, and Python.</p>
+                <p>As a 2024 graduate from Dr. D.Y. Patil Institute of Technology, Pune, I am passionate about software development and innovative solutions. My skills include Java, React Native, and open-source monitoring tools, with a focus on creating impactful projects.</p>
                 <br>
-                <p>I thrive on solving complex problems and building innovative solutions that make a real-world impact. My journey in competitive programming and real-time system development has shaped me into a versatile engineer ready to tackle tomorrow's challenges.</p>
+                <p>I thrive on building applications like Vastral and exploring ongoing projects like AI Log Anomaly Detection, aiming to contribute to the tech industry with my diverse skill set.</p>
             </div>
         </section>
 
@@ -669,19 +654,23 @@
             <div class="skills-grid">
                 <div class="skill-item fade-in-up">
                     <h3>Programming</h3>
-                    <p>C • C++ • Python</p>
+                    <p>Java • Python • SQL • Node.js • Swift • C • C++</p>
                 </div>
                 <div class="skill-item fade-in-up">
                     <h3>Technologies</h3>
-                    <p>IoT • MySQL • Linux</p>
+                    <p>Spring Boot • React • React Native • Android • IoT • MySQL • Linux</p>
                 </div>
                 <div class="skill-item fade-in-up">
-                    <h3>Problem Solving</h3>
-                    <p>Competitive Programming</p>
+                    <h3>Concepts</h3>
+                    <p>Data Structures & Algorithms • Object-Oriented Programming</p>
                 </div>
                 <div class="skill-item fade-in-up">
-                    <h3>Systems</h3>
-                    <p>Real-time Data • Embedded</p>
+                    <h3>Tools</h3>
+                    <p>Git • Linux</p>
+                </div>
+                <div class="skill-item fade-in-up">
+                    <h3>Monitoring & Security</h3>
+                    <p>Prometheus • Grafana • ELK Stack • Filebeat • Logstash • JWT • Spring Security</p>
                 </div>
             </div>
         </section>
@@ -691,16 +680,30 @@
             <div class="card-container">
                 <div class="project-card fade-in-up">
                     <div class="project-content">
-                        <h3>Advanced Shell Program</h3>
-                        <p>Engineered a sophisticated custom shell in C featuring parallel command execution, I/O redirection, and advanced system call handling. Demonstrates deep understanding of operating system concepts and low-level programming.</p>
-                        <a href="https://github.com/Tom100ment/shell_program_AnishK" class="btn btn-primary">View Code</a>
+                        <h3>IoT-Based Enhanced Battery Safety and Management System</h3>
+                        <p>Analyzed real-time data to optimize usage and safety, developed tactical plans to enhance battery life, and implemented automated safety features with sensor integration for continuous monitoring. Coordinated with team members to meet milestones.</p>
+                        <a href="https://github.com/AK1003018" class="btn btn-primary">Explore Project</a>
                     </div>
                 </div>
                 <div class="project-card fade-in-up">
                     <div class="project-content">
-                        <h3>IoT-Based EV Battery Safety System</h3>
-                        <p>Developed an intelligent real-time battery monitoring and safety management system for electric vehicles. Features predictive analytics for battery optimization and safety protocols. Published at International Conference.</p>
-                        <a href="https://github.com/AK1003018" class="btn btn-primary">Explore Project</a>
+                        <h3>Vastral</h3>
+                        <p>A quick clothing delivery platform using React Native, RESTful APIs, and MySQL, enabling users to purchase or rent outfits with style suggestions and local store integration.</p>
+                        <a href="https://github.com/MahaDev-73/Vastral" class="btn btn-primary">View Code</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3>AI Log Anomaly Detection Module (Ongoing)</h3>
+                        <p>An ongoing project adding intelligent log anomaly detection using machine learning to identify unusual patterns, spikes, or security anomalies in real-time with tools like Drain3, LogPAI, and Flask/FastAPI.</p>
+                        <a href="#" class="btn btn-primary">In Progress</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3>Secure Order Management System (Ongoing)</h3>
+                        <p>A Spring Boot-based e-commerce app with monitoring via ELK, Prometheus, and Grafana, and security features like JWT, RBAC, and rate limiting, designed for robust performance and safety.</p>
+                        <a href="#" class="btn btn-primary">In Progress</a>
                     </div>
                 </div>
             </div>
@@ -709,7 +712,7 @@
         <section id="contact" class="container">
             <h2 class="section-title fade-in-up">Let's Connect</h2>
             <div class="contact-content fade-in-up">
-                <p>Ready to collaborate on exciting projects or discuss innovative solutions? Let's build something amazing together.</p>
+                <p>Interested in collaborating or discussing opportunities? Feel free to reach out!</p>
                 <div class="contact-info">
                     <div class="contact-item">
                         <span>📧</span>
@@ -726,7 +729,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Anish Kolhe. Crafted with passion and code.</p>
+            <p>© 2025 Anish Kolhe. Crafted with passion and code.</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/anishkolhe18/" aria-label="LinkedIn">
                     💼
@@ -739,7 +742,6 @@
     </footer>
 
     <script>
-        // Create floating particles
         function createParticles() {
             const particlesContainer = document.getElementById('particles');
             const particleCount = 50;
@@ -754,7 +756,6 @@
             }
         }
 
-        // Header scroll effect
         window.addEventListener('scroll', () => {
             const header = document.getElementById('header');
             if (window.scrollY > 100) {
@@ -764,7 +765,6 @@
             }
         });
 
-        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -778,7 +778,6 @@
             });
         });
 
-        // Intersection Observer for animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -790,20 +789,16 @@
             rootMargin: '0px 0px -50px 0px'
         });
 
-        // Observe all animated elements
         document.querySelectorAll('.fade-in-up, .section-title, .about-content, .card, .skill-item, .project-card').forEach(el => {
             observer.observe(el);
         });
 
-        // Staggered animation for cards
         document.querySelectorAll('.card-container .card, .skills-grid .skill-item').forEach((card, index) => {
             card.style.transitionDelay = `${index * 0.1}s`;
         });
 
-        // Initialize particles
         createParticles();
 
-        // Add cursor trail effect
         let mouseX = 0;
         let mouseY = 0;
         let trailElements = [];
@@ -813,7 +808,6 @@
             mouseY = e.clientY;
         });
 
-        // Parallax effect for hero section
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const hero = document.querySelector('.hero');
@@ -822,7 +816,6 @@
             }
         });
 
-        // Dynamic typing effect for subtitle
         function typeWriter(element, text, speed = 100) {
             let i = 0;
             element.innerHTML = '';
@@ -837,7 +830,6 @@
             type();
         }
 
-        // Initialize typing effect
         window.addEventListener('load', () => {
             const subtitle = document.querySelector('.hero .subtitle');
             if (subtitle) {
@@ -848,5 +840,4 @@
             }
         });
     </script>
-</body>
 </html>
